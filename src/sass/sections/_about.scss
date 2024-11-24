@@ -74,6 +74,25 @@
           }
         }
       }
+      .d-flex {
+        .social-links {
+          display: flex;
+          align-items: center;
+          margin-left: 1rem; // Adjust this value to control spacing between button and icons
+  
+          .social-icon {
+            font-size: 3rem; // Adjust size as needed
+            color: $white-color;
+            margin: 0 0.5rem;
+            transition: all 0.2s ease-in;
+  
+            &:hover {
+              color: $dark-grey;
+              transform: translateY(-2px);
+            }
+          }
+        }
+      }
     }
   }
 }
