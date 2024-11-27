@@ -20,16 +20,29 @@
 
   // If you want to set a background image on the hero section, uncomment these with your custom image
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+  background: url("/src/assets/animated-developer.gif");
+  background-position: right;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  // top: 50px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7); // Adjust the last value (0.7) to change opacity
+    z-index: -1;
+  }
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
