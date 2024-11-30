@@ -15,16 +15,10 @@
   right: 0;
   z-index: -1;
 
-  // Set position sticky so the jumbotron stays fixed while you scroll.
-  // position: sticky;
-
-  // If you want to set a background image on the hero section, uncomment these with your custom image
-
-  background: url("/src/assets/animated-developer.gif");
-  background-position: right;
-  background-size: 50%;
-  background-repeat: no-repeat;
-  // top: 50px;
+  // background: url("/src/assets/animated-developer.gif");
+  // background-position: right;
+  // background-size: 50%;
+  // background-repeat: no-repeat;
 
   &::before {
     content: '';
@@ -39,6 +33,27 @@
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
+  }
+
+  .d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden !important;
+
+    @include respond(phone) {
+      display: block !important;
+    }
+  }
+
+  #developerGif {
+    width: 60rem;
+    height: auto;
+
+    @include respond(phone) {
+      width: 100%;
+      height: auto;
+    }
   }
 
   .hero-title {
