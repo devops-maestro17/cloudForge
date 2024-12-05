@@ -15,4 +15,5 @@ This is my personal portfolio website, Cloud Forge, where I showcase my skills, 
 Thanks to the Simplefolio template (https://github.com/cobiwave/simplefolio) for providing a fantastic foundation for this project.
 
 **Deployment**
+
 This website is deployed on Netlify
