@@ -17,3 +17,5 @@ Thanks to the Simplefolio template (https://github.com/cobiwave/simplefolio) for
 **Deployment**
 
 This website is deployed on Netlify
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d2b1f91b-7878-4d01-8f0b-b37370552788/deploy-status?branch=main)](https://app.netlify.com/sites/rajdeep-deogharia/deploys)
