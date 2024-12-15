@@ -8,7 +8,7 @@
 
 This is my personal portfolio website, Cloud Forge, where I showcase my skills, experience, projects, and certifications.
 
-**Check it out:** https://cloud-forge.netlify.app/
+**Check it out:** https://rajdeepdeogharia.dev/
 
 **Inspired by Simplefolio**
 
