@@ -6,7 +6,7 @@
 
 ## About ##
 
-This is my personal portfolio website, Cloud Forge, where I showcase my skills, experience, projects, and certifications.
+This is my personal portfolio website, Cloud Forge, where I showcase my skills, experience, projects, and certifications. The website is deployed on Netlify and uses a Cloudflare-secured custom domain.
 
 **Check it out:** https://rajdeepdeogharia.dev/
 
